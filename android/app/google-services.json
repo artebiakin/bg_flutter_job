@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870428236419",
+    "project_id": "bg-flutter-job",
+    "storage_bucket": "bg-flutter-job.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870428236419:android:fcfa6a8da0bc508609d9b6",
+        "android_client_info": {
+          "package_name": "com.example.bg_flutter_job"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870428236419-m2nphfr0di2hg9at87douaqk0kave7p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdp9munAh4PE60BakLGpiEFpek-EKRc_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870428236419-m2nphfr0di2hg9at87douaqk0kave7p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
