@@ -1,25 +1,34 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "bg_flutter_job",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "bg_flutter_job (profile mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "bg_flutter_job (release mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "bg_flutter_job",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "mock(offline)",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--dart-define", "MODE=$MODE"],
+      "env": {
+        "MODE": "mock"
+      }
+    },
+    {
+      "name": "bg_flutter_job (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "bg_flutter_job (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
 }
